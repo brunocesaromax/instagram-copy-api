@@ -1,0 +1,19 @@
+/* Único model do programa */
+const mongoose = require('mongoose');
+
+const PostSchema = new mongoose.Schema({
+    author: String,
+    place: String,
+    description: String,
+    hashtags: String,
+    image: String,
+    likes:{
+        type: Number,
+        default: 0,
+    }
+
+},{
+    timestamps: true, /* Criar um campo em cada atributo de data de criação e data de ultima atualização */
+});
+
+module.exports = mongoose.model('Post',PostSchema);

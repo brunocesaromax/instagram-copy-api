@@ -1,0 +1,8 @@
+
+Start no projeto: yarn init -y
+Dependecia para desenvolvimento mas nao producao: yarn add nodemon -D
+conexão com o banco de dados mongoDB: https://cloud.mongodb.com/ , e devemos criar um novo cluster, definir user e password alem de network acess
+Para upload, files no sistema usar a dependencia: yarn add multer
+Dependencia para manipular imagens da aplicação: yarn add sharp
+Dependencia para o servidor em node.js ser acessado do react e react native mesmo em locais diferentes
+Dependencia para aplicação suportar o websocket : yarn add socket.io
