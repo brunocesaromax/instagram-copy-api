@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const path = require('path');
 const cors = require('cors');
 
+
 const app = express(); /* Cria o servidor */
 
 const server = require('http').Server(app);
